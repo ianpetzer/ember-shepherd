@@ -21,23 +21,19 @@
     "email": "rwwagner90@gmail.com",
     "url": "https://github.com/rwwagner90"
   },
-  "contributors": [
-    {
-      "name": "Alex LaFroscia",
-      "email": "alex@lafroscia.com",
-      "url": "https://github.com/alexlafroscia"
-    },
-    {
-      "name": "bek",
-      "email": "bekzod@me.com",
-      "url": "https://github.com/bekzod"
-    },
-    {
-      "name": "Craig Sketchley",
-      "email": "craigsketchley@gmail.com",
-      "url": "https://github.com/craigsketchley"
-    }
-  ],
+  "contributors": [{
+    "name": "Alex LaFroscia",
+    "email": "alex@lafroscia.com",
+    "url": "https://github.com/alexlafroscia"
+  }, {
+    "name": "bek",
+    "email": "bekzod@me.com",
+    "url": "https://github.com/bekzod"
+  }, {
+    "name": "Craig Sketchley",
+    "email": "craigsketchley@gmail.com",
+    "url": "https://github.com/craigsketchley"
+  }],
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^6.1.2",
@@ -74,7 +70,8 @@
     "shepherd"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.7"
+    "ember-cli-babel": "^5.1.7",
+    "tether-shepherd": "^1.8.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
